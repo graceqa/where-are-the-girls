@@ -12,6 +12,14 @@ async function sync() {
   console.log('[Sync] Initializing Google Calendar Service...');
   const service = new GoogleCalendarService();
 
+  const outputDir = path.resolve(__dirname, '../client/public');
+  const outputPath = path.join(outputDir, 'schedule-data.json');
+
+  if (!service.getStatus().isConfigured && fs.existsSync(outputPath)) {
+    console.log('[Sync] Service account credentials not configured in environment. Preserving existing schedule-data.json.');
+    return;
+  }
+
   const now = new Date();
   const todayKey = now.toISOString().slice(0, 10);
 
