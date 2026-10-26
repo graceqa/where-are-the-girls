@@ -88,11 +88,9 @@ export function App() {
   return (
     <div className="app-container">
       <Header
-        status={status}
         onJumpToToday={handleJumpToToday}
         onOpenDatePicker={() => setIsDatePickerOpen(true)}
         onRefresh={handleRefresh}
-        onOpenSetup={() => setIsSetupOpen(true)}
         isRefreshing={isRefreshing}
       />
 
@@ -115,6 +113,19 @@ export function App() {
         todayDate={todayDate}
         onSelectDate={handleSelectDate}
       />
+
+      <footer className="app-footer">
+        <button
+          type="button"
+          className="footer-connection-link"
+          onClick={() => setIsSetupOpen(true)}
+          title={status?.message || 'Google Calendar connection details'}
+        >
+          <span className={`status-dot ${status?.isConnected ? 'connected' : 'demo'}`} />
+          <span>Google Calendar Connection</span>
+          <span style={{ fontSize: '0.72rem', opacity: 0.65 }}>⚙️</span>
+        </button>
+      </footer>
 
       <SetupModal
         isOpen={isSetupOpen}

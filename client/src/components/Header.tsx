@@ -1,26 +1,18 @@
 import React from 'react';
-import { ServiceStatus } from '../types.js';
 
 interface HeaderProps {
-  status: ServiceStatus | null;
   onJumpToToday: () => void;
   onOpenDatePicker: () => void;
   onRefresh: () => void;
-  onOpenSetup: () => void;
   isRefreshing: boolean;
 }
 
 export const Header: React.FC<HeaderProps> = ({
-  status,
   onJumpToToday,
   onOpenDatePicker,
   onRefresh,
-  onOpenSetup,
   isRefreshing
 }) => {
-  const isConnected = status?.isConnected ?? false;
-  const isDemo = status?.mode === 'demo';
-
   return (
     <header className="app-header">
       <div className="brand-section">
@@ -52,23 +44,14 @@ export const Header: React.FC<HeaderProps> = ({
         </button>
 
         <button
-          className="btn-secondary"
+          className="btn-refresh-action"
           onClick={onRefresh}
           disabled={isRefreshing}
           title="Refresh calendar data from Google"
           aria-label="Refresh calendar"
         >
           <span>{isRefreshing ? '⏳' : '🔄'}</span>
-        </button>
-
-        <button
-          className="status-pill"
-          onClick={onOpenSetup}
-          title={status?.message || 'Connection info'}
-        >
-          <span className={`status-dot ${isConnected ? 'connected' : 'demo'}`} />
-          <span className="status-label">Connection</span>
-          <span style={{ fontSize: '0.7rem', color: 'var(--text-muted)' }}>⚙️</span>
+          <span>Refresh</span>
         </button>
       </div>
     </header>
