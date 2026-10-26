@@ -3,10 +3,10 @@
   --font-display: 'Outfit', var(--font-sans);
 
   /* Neutrals */
-  --bg-main: #f4f8fb;
+  --bg-main: #e2eef8;
   --bg-card: #ffffff;
   --bg-card-subtle: #f1f5f9;
-  --border-subtle: #e2e8f0;
+  --border-subtle: #d0e4f5;
   --border-focus: #4a96d1;
   --text-main: #0f172a;
   --text-muted: #64748b;
@@ -17,7 +17,7 @@
   --powder-hover: #3b84bf;
   --powder-dark: #236597;
   --powder-bg: #f0f7fc;
-  --powder-border: #cce3f5;
+  --powder-border: #bfe0f5;
   --powder-text: #1d5580;
   --powder-shadow: rgba(74, 150, 209, 0.22);
 
@@ -93,12 +93,15 @@ button {
 
 /* Header */
 .app-header {
+  background: white;
+  border-radius: var(--radius-xl);
+  padding: 0.85rem 1.15rem;
+  box-shadow: 0 4px 14px rgba(74, 150, 209, 0.12);
+  border: 1px solid #d0e4f5;
   display: flex;
   flex-direction: column;
   align-items: stretch;
   gap: 0.75rem;
-  padding-bottom: 0.65rem;
-  border-bottom: 1px solid var(--border-subtle);
 }
 
 @media (min-width: 640px) {
@@ -106,6 +109,7 @@ button {
     flex-direction: row;
     align-items: center;
     justify-content: space-between;
+    padding: 0.85rem 1.35rem;
   }
 }
 
@@ -266,9 +270,9 @@ button {
 .hero-card {
   background: white;
   border-radius: var(--radius-xl);
-  padding: 1.25rem 1.25rem 1.5rem;
-  box-shadow: var(--shadow-md);
-  border: 1px solid var(--border-subtle);
+  padding: 1.35rem 1.25rem 1.5rem;
+  box-shadow: 0 4px 18px rgba(74, 150, 209, 0.14);
+  border: 1px solid #d0e4f5;
   position: relative;
   overflow: hidden;
   transition: var(--transition);
@@ -304,8 +308,8 @@ button {
   display: flex;
   align-items: center;
   justify-content: space-between;
-  background: var(--bg-card-subtle);
-  border: 1px solid var(--border-subtle);
+  background: var(--powder-bg);
+  border: 1px solid var(--powder-border);
   border-radius: var(--radius-md);
   padding: 0.35rem 0.5rem;
 }
@@ -324,18 +328,19 @@ button {
   height: 34px;
   border-radius: var(--radius-sm);
   background: white;
-  border: 1px solid var(--border-subtle);
+  border: 1px solid var(--powder-border);
   display: flex;
   align-items: center;
   justify-content: center;
   font-weight: 700;
   font-size: 1.15rem;
-  color: var(--text-main);
+  color: var(--powder-dark);
   flex-shrink: 0;
 }
 
 .nav-step-btn:hover {
-  background: #e2e8f0;
+  background: #e2eef8;
+  color: var(--powder-primary);
 }
 
 .hero-date-text,
@@ -464,18 +469,21 @@ button {
 }
 
 .hero-card.grace .hero-avatar {
-  background: var(--grace-bg);
-  border: 2px solid var(--grace-border);
+  background: #ffe8ec;
+  border: 2px solid #fecdd3;
+  box-shadow: 0 4px 12px rgba(225, 29, 72, 0.12);
 }
 
 .hero-card.ronny .hero-avatar {
-  background: var(--ronny-bg);
-  border: 2px solid var(--ronny-border);
+  background: #e6f7f5;
+  border: 2px solid #99f6e4;
+  box-shadow: 0 4px 12px rgba(13, 148, 136, 0.12);
 }
 
 .hero-card.exchange .hero-avatar {
-  background: var(--exchange-bg);
-  border: 2px solid var(--exchange-border);
+  background: var(--powder-bg);
+  border: 2px solid var(--powder-border);
+  box-shadow: 0 4px 12px var(--powder-shadow);
 }
 
 .hero-info-centered {
@@ -613,8 +621,8 @@ button {
 .hero-commitment-card {
   padding: 0.75rem 0.9rem;
   border-radius: var(--radius-md);
-  border: 1px solid var(--border-subtle);
-  background: var(--bg-card-subtle);
+  border: 1px solid #dcedf8;
+  background: #f9fcfe;
   display: flex;
   flex-direction: column;
   gap: 0.25rem;
@@ -623,8 +631,8 @@ button {
 
 .hero-commitment-card:hover {
   background: white;
-  border-color: var(--powder-border);
-  box-shadow: 0 2px 6px var(--powder-shadow);
+  border-color: var(--powder-primary);
+  box-shadow: 0 4px 12px rgba(74, 150, 209, 0.16);
 }
 
 .hero-commitment-main {
