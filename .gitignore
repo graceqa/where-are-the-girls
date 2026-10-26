@@ -1,0 +1,10 @@
+node_modules/
+dist/
+.DS_Store
+*.local
+.env
+*.json
+!package*.json
+!tsconfig*.json
+.cache/
+coverage/
