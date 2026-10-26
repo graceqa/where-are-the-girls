@@ -61,12 +61,10 @@ async function sync() {
     months
   };
 
-  const outputDir = path.resolve(__dirname, '../client/public');
   if (!fs.existsSync(outputDir)) {
     fs.mkdirSync(outputDir, { recursive: true });
   }
 
-  const outputPath = path.join(outputDir, 'schedule-data.json');
   fs.writeFileSync(outputPath, JSON.stringify(staticPayload, null, 2), 'utf8');
   console.log(`[Sync] Successfully generated static data at ${outputPath}`);
 }

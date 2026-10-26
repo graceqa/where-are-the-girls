@@ -1,11 +1,11 @@
 {
-  "generatedAt": "2026-10-26T15:51:58.180Z",
+  "generatedAt": "2026-10-26T16:08:16.830Z",
   "status": {
     "isConfigured": true,
     "isConnected": true,
     "mode": "google_calendar",
-    "calendarId": "Gabby Penny Violin Lessons, Family Calendar, Avery pick-up",
-    "message": "Connected to Google Calendars: Gabby Penny Violin Lessons, Family Calendar, Avery pick-up"
+    "calendarId": "Avery pick-up, Gabby Penny Violin Lessons, Family Calendar",
+    "message": "Connected to Google Calendars: Avery pick-up, Gabby Penny Violin Lessons, Family Calendar"
   },
   "days": {
     "2026-08-27": {

@@ -41,7 +41,7 @@ jobs:
         run: npm run install:all
 
       - name: Sync Google Calendar Data
-        run: npx tsx scripts/syncData.ts
+        run: npm run sync || echo "Sync skipped, building with existing calendar snapshot"
         env:
           GOOGLE_SERVICE_ACCOUNT_EMAIL: ${{ secrets.GOOGLE_SERVICE_ACCOUNT_EMAIL }}
           GOOGLE_PRIVATE_KEY: ${{ secrets.GOOGLE_PRIVATE_KEY }}
