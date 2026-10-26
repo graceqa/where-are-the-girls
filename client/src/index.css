@@ -3,14 +3,23 @@
   --font-display: 'Outfit', var(--font-sans);
 
   /* Neutrals */
-  --bg-main: #f8fafc;
+  --bg-main: #f4f8fb;
   --bg-card: #ffffff;
   --bg-card-subtle: #f1f5f9;
   --border-subtle: #e2e8f0;
-  --border-focus: #3b82f6;
+  --border-focus: #4a96d1;
   --text-main: #0f172a;
   --text-muted: #64748b;
   --text-light: #94a3b8;
+
+  /* Powdery Blue Palette (#4a96d1) */
+  --powder-primary: #4a96d1;
+  --powder-hover: #3b84bf;
+  --powder-dark: #236597;
+  --powder-bg: #f0f7fc;
+  --powder-border: #cce3f5;
+  --powder-text: #1d5580;
+  --powder-shadow: rgba(74, 150, 209, 0.22);
 
   /* Grace Theme (Warm Rose / Coral) */
   --grace-primary: #e11d48;
@@ -34,7 +43,7 @@
   --exchange-bg: #f5f3ff;
   --exchange-border: #ddd6fe;
   --exchange-text: #4c1d95;
-  --exchange-gradient: linear-gradient(135deg, #0d9488 0%, #6366f1 50%, #e11d48 100%);
+  --exchange-gradient: linear-gradient(135deg, #0d9488 0%, #4a96d1 50%, #e11d48 100%);
   --exchange-shadow: rgba(124, 58, 237, 0.18);
 
   /* UI Tokens */
@@ -121,10 +130,10 @@ button {
   justify-content: center;
   width: 44px;
   height: 44px;
-  background: white;
+  background: var(--powder-bg);
   border-radius: var(--radius-md);
   box-shadow: var(--shadow-sm);
-  border: 1px solid var(--border-subtle);
+  border: 1px solid var(--powder-border);
   flex-shrink: 0;
 }
 
@@ -199,17 +208,18 @@ button {
   align-items: center;
   gap: 0.35rem;
   padding: 0.45rem 0.85rem;
-  background: #0f172a;
+  background: var(--powder-primary);
   color: white;
   border-radius: var(--radius-md);
-  font-weight: 600;
-  font-size: 0.8rem;
-  box-shadow: var(--shadow-sm);
+  font-weight: 700;
+  font-size: 0.825rem;
+  box-shadow: 0 2px 5px var(--powder-shadow);
   white-space: nowrap;
 }
 
 .btn-today-primary:hover {
-  background: #1e293b;
+  background: var(--powder-hover);
+  transform: translateY(-1px);
 }
 
 .btn-picker-action {
@@ -228,7 +238,9 @@ button {
 }
 
 .btn-picker-action:hover {
-  background: var(--bg-card-subtle);
+  background: var(--powder-bg);
+  border-color: var(--powder-border);
+  color: var(--powder-text);
 }
 
 .btn-secondary {
@@ -411,7 +423,7 @@ button {
 }
 
 .today-chip {
-  background: #0f172a;
+  background: var(--powder-primary);
   color: white;
   font-size: 0.7rem;
   font-weight: 700;
@@ -585,11 +597,11 @@ button {
 .commitments-count-chip {
   font-size: 0.7rem;
   font-weight: 700;
-  background: #eff6ff;
-  color: #2563eb;
+  background: var(--powder-bg);
+  color: var(--powder-text);
   padding: 0.15rem 0.5rem;
   border-radius: 9999px;
-  border: 1px solid #bfdbfe;
+  border: 1px solid var(--powder-border);
 }
 
 .hero-commitments-list {
@@ -611,8 +623,8 @@ button {
 
 .hero-commitment-card:hover {
   background: white;
-  border-color: #cbd5e1;
-  box-shadow: var(--shadow-sm);
+  border-color: var(--powder-border);
+  box-shadow: 0 2px 6px var(--powder-shadow);
 }
 
 .hero-commitment-main {
@@ -637,9 +649,10 @@ button {
 
 .hero-commitment-time {
   font-size: 0.75rem;
-  font-weight: 700;
-  color: #1d4ed8;
-  background: #dbeafe;
+  font-weight: 600;
+  color: #334155;
+  background: #f1f5f9;
+  border: 1px solid #e2e8f0;
   padding: 0.15rem 0.45rem;
   border-radius: 4px;
   white-space: nowrap;
@@ -663,7 +676,7 @@ button {
 }
 
 .event-link {
-  color: #2563eb;
+  color: var(--powder-dark);
   font-weight: 600;
   text-decoration: underline;
   word-break: break-all;
@@ -671,7 +684,7 @@ button {
 }
 
 .event-link:hover {
-  color: #1d4ed8;
+  color: var(--powder-hover);
 }
 
 .empty-day-commitments {
@@ -1098,14 +1111,15 @@ button {
 }
 
 .picker-cell.selected {
-  background: #0f172a !important;
+  background: var(--powder-primary) !important;
   color: white !important;
   font-weight: 700;
+  box-shadow: 0 2px 4px var(--powder-shadow);
 }
 
 .picker-cell.is-today:not(.selected) {
-  border-color: #3b82f6;
-  color: #2563eb;
+  border-color: var(--powder-primary);
+  color: var(--powder-dark);
   font-weight: 700;
 }
 
