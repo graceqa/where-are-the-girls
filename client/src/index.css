@@ -163,6 +163,7 @@ button {
   justify-content: space-between;
   gap: 0.35rem;
   width: 100%;
+  flex-wrap: nowrap;
   box-sizing: border-box;
 }
 
@@ -247,7 +248,7 @@ button {
   align-items: center;
   justify-content: center;
   gap: 0.3rem;
-  padding: 0.35rem 0.55rem;
+  padding: 0.35rem 0.65rem;
   height: 32px;
   border-radius: 9999px;
   font-size: 0.75rem;
@@ -282,34 +283,6 @@ button {
 .status-label {
   display: inline-flex;
   align-items: center;
-}
-
-.status-label-full {
-  display: none;
-}
-
-.status-label-short {
-  display: inline;
-}
-
-@media (min-width: 480px) {
-  .status-label-full {
-    display: inline;
-  }
-  .status-label-short {
-    display: none;
-  }
-  .btn-today-primary {
-    padding: 0.35rem 0.75rem;
-    font-size: 0.78rem;
-  }
-  .btn-picker-action {
-    padding: 0.35rem 0.75rem;
-    font-size: 0.78rem;
-  }
-  .status-pill {
-    padding: 0.35rem 0.7rem;
-  }
 }
 
 /* Hero Section */

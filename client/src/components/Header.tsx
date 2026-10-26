@@ -67,10 +67,7 @@ export const Header: React.FC<HeaderProps> = ({
           title={status?.message || 'Connection info'}
         >
           <span className={`status-dot ${isConnected ? 'connected' : 'demo'}`} />
-          <span className="status-label">
-            <span className="status-label-full">{isConnected ? 'Live Calendar' : isDemo ? 'Demo Mode' : 'Offline'}</span>
-            <span className="status-label-short">{isConnected ? 'Live' : isDemo ? 'Demo' : 'Offline'}</span>
-          </span>
+          <span className="status-label">Connection</span>
           <span style={{ fontSize: '0.7rem', color: 'var(--text-muted)' }}>⚙️</span>
         </button>
       </div>
