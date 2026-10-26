@@ -1,11 +1,11 @@
 {
-  "generatedAt": "2026-10-26T16:08:16.830Z",
+  "generatedAt": "2026-10-26T17:21:21.406Z",
   "status": {
     "isConfigured": true,
     "isConnected": true,
     "mode": "google_calendar",
-    "calendarId": "Avery pick-up, Gabby Penny Violin Lessons, Family Calendar",
-    "message": "Connected to Google Calendars: Avery pick-up, Gabby Penny Violin Lessons, Family Calendar"
+    "calendarId": "Family Calendar, Gabby Penny Violin Lessons, Avery pick-up",
+    "message": "Connected to Google Calendars: Family Calendar, Gabby Penny Violin Lessons, Avery pick-up"
   },
   "days": {
     "2026-08-27": {
@@ -1634,7 +1634,7 @@
       "commitments": [
         {
           "id": "0er2vska5nctblu65cdigr45cv_20261020T183500Z",
-          "title": "Avery pu @ 2:35",
+          "title": "Avery p/u @ 2:35",
           "start": "2026-10-20T14:35:00-04:00",
           "end": "2026-10-20T15:35:00-04:00",
           "isAllDay": false,
@@ -1894,7 +1894,7 @@
         },
         {
           "id": "2n1bmk6rkmjqbtj6f5lr36cmtd_20261027T183500Z",
-          "title": "Avery pu @ 2:35",
+          "title": "Avery p/u @ 2:35",
           "start": "2026-10-27T14:35:00-04:00",
           "end": "2026-10-27T15:35:00-04:00",
           "isAllDay": false,
@@ -2122,7 +2122,7 @@
         },
         {
           "id": "2su6phk8rst77bg91uce9g7mq3_20261102T211500Z",
-          "title": "Avery pu @ 4:15",
+          "title": "Avery p/u @ 4:15",
           "start": "2026-11-02T16:15:00-05:00",
           "end": "2026-11-02T17:15:00-05:00",
           "isAllDay": false,
@@ -2479,7 +2479,7 @@
         },
         {
           "id": "7mugmgvbul187aj57p675hs53c_20261113T233000Z",
-          "title": "Avery pu @ 6:30",
+          "title": "Avery p/u @ 6:30",
           "start": "2026-11-13T18:30:00-05:00",
           "end": "2026-11-13T19:30:00-05:00",
           "isAllDay": false,
@@ -2581,7 +2581,7 @@
         },
         {
           "id": "2su6phk8rst77bg91uce9g7mq3_20261116T211500Z",
-          "title": "Avery pu @ 4:15",
+          "title": "Avery p/u @ 4:15",
           "start": "2026-11-16T16:15:00-05:00",
           "end": "2026-11-16T17:15:00-05:00",
           "isAllDay": false,
@@ -2613,7 +2613,7 @@
       "commitments": [
         {
           "id": "0er2vska5nctblu65cdigr45cv_20261117T193500Z",
-          "title": "Avery pu @ 2:35",
+          "title": "Avery p/u @ 2:35",
           "start": "2026-11-17T14:35:00-05:00",
           "end": "2026-11-17T15:35:00-05:00",
           "isAllDay": false,
@@ -2722,7 +2722,7 @@
         },
         {
           "id": "2tq6l103bc4s7agliqnnhmnju2_20261120T233000Z",
-          "title": "Avery pu @ 6:30",
+          "title": "Avery p/u @ 6:30",
           "start": "2026-11-20T18:30:00-05:00",
           "end": "2026-11-20T19:30:00-05:00",
           "isAllDay": false,
@@ -2834,7 +2834,7 @@
         },
         {
           "id": "7b6alf27otrtlefrr328jrq1ij_20261123T211500Z",
-          "title": "Avery pu @ 4:15",
+          "title": "Avery p/u @ 4:15",
           "start": "2026-11-23T16:15:00-05:00",
           "end": "2026-11-23T17:15:00-05:00",
           "isAllDay": false,
@@ -2866,7 +2866,7 @@
       "commitments": [
         {
           "id": "2n1bmk6rkmjqbtj6f5lr36cmtd_20261124T193500Z",
-          "title": "Avery pu @ 2:35",
+          "title": "Avery p/u @ 2:35",
           "start": "2026-11-24T14:35:00-05:00",
           "end": "2026-11-24T15:35:00-05:00",
           "isAllDay": false,
@@ -3049,7 +3049,7 @@
         },
         {
           "id": "2su6phk8rst77bg91uce9g7mq3_20261130T211500Z",
-          "title": "Avery pu @ 4:15",
+          "title": "Avery p/u @ 4:15",
           "start": "2026-11-30T16:15:00-05:00",
           "end": "2026-11-30T17:15:00-05:00",
           "isAllDay": false,
@@ -3081,7 +3081,7 @@
       "commitments": [
         {
           "id": "0er2vska5nctblu65cdigr45cv_20261201T193500Z",
-          "title": "Avery pu @ 2:35",
+          "title": "Avery p/u @ 2:35",
           "start": "2026-12-01T14:35:00-05:00",
           "end": "2026-12-01T15:35:00-05:00",
           "isAllDay": false,
@@ -3190,7 +3190,7 @@
         },
         {
           "id": "2tq6l103bc4s7agliqnnhmnju2_20261204T233000Z",
-          "title": "Avery pu @ 6:30",
+          "title": "Avery p/u @ 6:30",
           "start": "2026-12-04T18:30:00-05:00",
           "end": "2026-12-04T19:30:00-05:00",
           "isAllDay": false,
@@ -3292,7 +3292,7 @@
         },
         {
           "id": "7b6alf27otrtlefrr328jrq1ij_20261207T211500Z",
-          "title": "Avery pu @ 4:15",
+          "title": "Avery p/u @ 4:15",
           "start": "2026-12-07T16:15:00-05:00",
           "end": "2026-12-07T17:15:00-05:00",
           "isAllDay": false,
@@ -3324,7 +3324,7 @@
       "commitments": [
         {
           "id": "2n1bmk6rkmjqbtj6f5lr36cmtd_20261208T193500Z",
-          "title": "Avery pu @ 2:35",
+          "title": "Avery p/u @ 2:35",
           "start": "2026-12-08T14:35:00-05:00",
           "end": "2026-12-08T15:35:00-05:00",
           "isAllDay": false,
@@ -3433,7 +3433,7 @@
         },
         {
           "id": "7mugmgvbul187aj57p675hs53c_20261211T233000Z",
-          "title": "Avery pu @ 6:30",
+          "title": "Avery p/u @ 6:30",
           "start": "2026-12-11T18:30:00-05:00",
           "end": "2026-12-11T19:30:00-05:00",
           "isAllDay": false,
@@ -3535,7 +3535,7 @@
         },
         {
           "id": "2su6phk8rst77bg91uce9g7mq3_20261214T211500Z",
-          "title": "Avery pu @ 4:15",
+          "title": "Avery p/u @ 4:15",
           "start": "2026-12-14T16:15:00-05:00",
           "end": "2026-12-14T17:15:00-05:00",
           "isAllDay": false,
@@ -3567,7 +3567,7 @@
       "commitments": [
         {
           "id": "0er2vska5nctblu65cdigr45cv_20261215T193500Z",
-          "title": "Avery pu @ 2:35",
+          "title": "Avery p/u @ 2:35",
           "start": "2026-12-15T14:35:00-05:00",
           "end": "2026-12-15T15:35:00-05:00",
           "isAllDay": false,
@@ -3667,7 +3667,7 @@
       "commitments": [
         {
           "id": "2tq6l103bc4s7agliqnnhmnju2_20261218T233000Z",
-          "title": "Avery pu @ 6:30",
+          "title": "Avery p/u @ 6:30",
           "start": "2026-12-18T18:30:00-05:00",
           "end": "2026-12-18T19:30:00-05:00",
           "isAllDay": false,
@@ -3769,7 +3769,7 @@
         },
         {
           "id": "7b6alf27otrtlefrr328jrq1ij_20261221T211500Z",
-          "title": "Avery pu @ 4:15",
+          "title": "Avery p/u @ 4:15",
           "start": "2026-12-21T16:15:00-05:00",
           "end": "2026-12-21T17:15:00-05:00",
           "isAllDay": false,
@@ -3801,7 +3801,7 @@
       "commitments": [
         {
           "id": "2n1bmk6rkmjqbtj6f5lr36cmtd_20261222T193500Z",
-          "title": "Avery pu @ 2:35",
+          "title": "Avery p/u @ 2:35",
           "start": "2026-12-22T14:35:00-05:00",
           "end": "2026-12-22T15:35:00-05:00",
           "isAllDay": false,
@@ -4166,7 +4166,7 @@
         },
         {
           "id": "4vi6tpdlguaq2hccva96as8g8n_20270104T211500Z",
-          "title": "Avery pu @ 4:15",
+          "title": "Avery p/u @ 4:15",
           "start": "2027-01-04T16:15:00-05:00",
           "end": "2027-01-04T17:15:00-05:00",
           "isAllDay": false,
@@ -4198,7 +4198,7 @@
       "commitments": [
         {
           "id": "6l32u0hn3pqm3f4180f12phk9f_20270105T193500Z",
-          "title": "Avery pu @ 2:35",
+          "title": "Avery p/u @ 2:35",
           "start": "2027-01-05T14:35:00-05:00",
           "end": "2027-01-05T15:35:00-05:00",
           "isAllDay": false,
@@ -4307,7 +4307,7 @@
         },
         {
           "id": "5hffuk36bf365q2955gvqr0ph2_20270108T233000Z",
-          "title": "Avery pu @ 6:30",
+          "title": "Avery p/u @ 6:30",
           "start": "2027-01-08T18:30:00-05:00",
           "end": "2027-01-08T19:30:00-05:00",
           "isAllDay": false,
@@ -4409,7 +4409,7 @@
         },
         {
           "id": "0r7f64mva291tucie5kgoncqjj_20270111T211500Z",
-          "title": "Avery pu @ 4:15",
+          "title": "Avery p/u @ 4:15",
           "start": "2027-01-11T16:15:00-05:00",
           "end": "2027-01-11T17:15:00-05:00",
           "isAllDay": false,
@@ -4441,7 +4441,7 @@
       "commitments": [
         {
           "id": "734pb17f600kl8k6gnbft7pr7m_20270112T193500Z",
-          "title": "Avery pu @ 2:35",
+          "title": "Avery p/u @ 2:35",
           "start": "2027-01-12T14:35:00-05:00",
           "end": "2027-01-12T15:35:00-05:00",
           "isAllDay": false,
@@ -4550,7 +4550,7 @@
         },
         {
           "id": "5ttqiujou0cg51g3fvvd6159p3_20270115T233000Z",
-          "title": "Avery pu @ 6:30",
+          "title": "Avery p/u @ 6:30",
           "start": "2027-01-15T18:30:00-05:00",
           "end": "2027-01-15T19:30:00-05:00",
           "isAllDay": false,
@@ -4667,7 +4667,7 @@
       "commitments": [
         {
           "id": "6l32u0hn3pqm3f4180f12phk9f_20270119T193500Z",
-          "title": "Avery pu @ 2:35",
+          "title": "Avery p/u @ 2:35",
           "start": "2027-01-19T14:35:00-05:00",
           "end": "2027-01-19T15:35:00-05:00",
           "isAllDay": false,
@@ -4776,7 +4776,7 @@
         },
         {
           "id": "5hffuk36bf365q2955gvqr0ph2_20270122T233000Z",
-          "title": "Avery pu @ 6:30",
+          "title": "Avery p/u @ 6:30",
           "start": "2027-01-22T18:30:00-05:00",
           "end": "2027-01-22T19:30:00-05:00",
           "isAllDay": false,
@@ -4887,7 +4887,7 @@
         },
         {
           "id": "0r7f64mva291tucie5kgoncqjj_20270125T211500Z",
-          "title": "Avery pu @ 4:15",
+          "title": "Avery p/u @ 4:15",
           "start": "2027-01-25T16:15:00-05:00",
           "end": "2027-01-25T17:15:00-05:00",
           "isAllDay": false,
@@ -4919,7 +4919,7 @@
       "commitments": [
         {
           "id": "734pb17f600kl8k6gnbft7pr7m_20270126T193500Z",
-          "title": "Avery pu @ 2:35",
+          "title": "Avery p/u @ 2:35",
           "start": "2027-01-26T14:35:00-05:00",
           "end": "2027-01-26T15:35:00-05:00",
           "isAllDay": false,
@@ -5028,7 +5028,7 @@
         },
         {
           "id": "5ttqiujou0cg51g3fvvd6159p3_20270129T233000Z",
-          "title": "Avery pu @ 6:30",
+          "title": "Avery p/u @ 6:30",
           "start": "2027-01-29T18:30:00-05:00",
           "end": "2027-01-29T19:30:00-05:00",
           "isAllDay": false,
@@ -5130,7 +5130,7 @@
         },
         {
           "id": "4vi6tpdlguaq2hccva96as8g8n_20270201T211500Z",
-          "title": "Avery pu @ 4:15",
+          "title": "Avery p/u @ 4:15",
           "start": "2027-02-01T16:15:00-05:00",
           "end": "2027-02-01T17:15:00-05:00",
           "isAllDay": false,
@@ -5162,7 +5162,7 @@
       "commitments": [
         {
           "id": "6l32u0hn3pqm3f4180f12phk9f_20270202T193500Z",
-          "title": "Avery pu @ 2:35",
+          "title": "Avery p/u @ 2:35",
           "start": "2027-02-02T14:35:00-05:00",
           "end": "2027-02-02T15:35:00-05:00",
           "isAllDay": false,
@@ -5262,7 +5262,7 @@
         },
         {
           "id": "5hffuk36bf365q2955gvqr0ph2_20270205T233000Z",
-          "title": "Avery pu @ 6:30",
+          "title": "Avery p/u @ 6:30",
           "start": "2027-02-05T18:30:00-05:00",
           "end": "2027-02-05T19:30:00-05:00",
           "isAllDay": false,
@@ -5356,7 +5356,7 @@
       "commitments": [
         {
           "id": "0r7f64mva291tucie5kgoncqjj_20270208T211500Z",
-          "title": "Avery pu @ 4:15",
+          "title": "Avery p/u @ 4:15",
           "start": "2027-02-08T16:15:00-05:00",
           "end": "2027-02-08T17:15:00-05:00",
           "isAllDay": false,
@@ -5388,7 +5388,7 @@
       "commitments": [
         {
           "id": "734pb17f600kl8k6gnbft7pr7m_20270209T193500Z",
-          "title": "Avery pu @ 2:35",
+          "title": "Avery p/u @ 2:35",
           "start": "2027-02-09T14:35:00-05:00",
           "end": "2027-02-09T15:35:00-05:00",
           "isAllDay": false,
@@ -5488,7 +5488,7 @@
         },
         {
           "id": "5ttqiujou0cg51g3fvvd6159p3_20270212T233000Z",
-          "title": "Avery pu @ 6:30",
+          "title": "Avery p/u @ 6:30",
           "start": "2027-02-12T18:30:00-05:00",
           "end": "2027-02-12T19:30:00-05:00",
           "isAllDay": false,
@@ -5775,7 +5775,7 @@
       "commitments": [
         {
           "id": "0r7f64mva291tucie5kgoncqjj_20270222T211500Z",
-          "title": "Avery pu @ 4:15",
+          "title": "Avery p/u @ 4:15",
           "start": "2027-02-22T16:15:00-05:00",
           "end": "2027-02-22T17:15:00-05:00",
           "isAllDay": false,
@@ -5807,7 +5807,7 @@
       "commitments": [
         {
           "id": "734pb17f600kl8k6gnbft7pr7m_20270223T193500Z",
-          "title": "Avery pu @ 2:35",
+          "title": "Avery p/u @ 2:35",
           "start": "2027-02-23T14:35:00-05:00",
           "end": "2027-02-23T15:35:00-05:00",
           "isAllDay": false,
@@ -5907,7 +5907,7 @@
         },
         {
           "id": "5ttqiujou0cg51g3fvvd6159p3_20270226T233000Z",
-          "title": "Avery pu @ 6:30",
+          "title": "Avery p/u @ 6:30",
           "start": "2027-02-26T18:30:00-05:00",
           "end": "2027-02-26T19:30:00-05:00",
           "isAllDay": false,
@@ -6001,7 +6001,7 @@
       "commitments": [
         {
           "id": "4vi6tpdlguaq2hccva96as8g8n_20270301T211500Z",
-          "title": "Avery pu @ 4:15",
+          "title": "Avery p/u @ 4:15",
           "start": "2027-03-01T16:15:00-05:00",
           "end": "2027-03-01T17:15:00-05:00",
           "isAllDay": false,
@@ -6033,7 +6033,7 @@
       "commitments": [
         {
           "id": "6l32u0hn3pqm3f4180f12phk9f_20270302T193500Z",
-          "title": "Avery pu @ 2:35",
+          "title": "Avery p/u @ 2:35",
           "start": "2027-03-02T14:35:00-05:00",
           "end": "2027-03-02T15:35:00-05:00",
           "isAllDay": false,
@@ -6226,7 +6226,7 @@
       "commitments": [
         {
           "id": "0r7f64mva291tucie5kgoncqjj_20270308T211500Z",
-          "title": "Avery pu @ 4:15",
+          "title": "Avery p/u @ 4:15",
           "start": "2027-03-08T16:15:00-05:00",
           "end": "2027-03-08T17:15:00-05:00",
           "isAllDay": false,
@@ -6350,7 +6350,7 @@
         },
         {
           "id": "5ttqiujou0cg51g3fvvd6159p3_20270312T233000Z",
-          "title": "Avery pu @ 6:30",
+          "title": "Avery p/u @ 6:30",
           "start": "2027-03-12T18:30:00-05:00",
           "end": "2027-03-12T19:30:00-05:00",
           "isAllDay": false,
@@ -6444,7 +6444,7 @@
       "commitments": [
         {
           "id": "4vi6tpdlguaq2hccva96as8g8n_20270315T201500Z",
-          "title": "Avery pu @ 4:15",
+          "title": "Avery p/u @ 4:15",
           "start": "2027-03-15T16:15:00-04:00",
           "end": "2027-03-15T17:15:00-04:00",
           "isAllDay": false,
@@ -6476,7 +6476,7 @@
       "commitments": [
         {
           "id": "6l32u0hn3pqm3f4180f12phk9f_20270316T183500Z",
-          "title": "Avery pu @ 2:35",
+          "title": "Avery p/u @ 2:35",
           "start": "2027-03-16T14:35:00-04:00",
           "end": "2027-03-16T15:35:00-04:00",
           "isAllDay": false,
@@ -6576,7 +6576,7 @@
         },
         {
           "id": "5hffuk36bf365q2955gvqr0ph2_20270319T223000Z",
-          "title": "Avery pu @ 6:30",
+          "title": "Avery p/u @ 6:30",
           "start": "2027-03-19T18:30:00-04:00",
           "end": "2027-03-19T19:30:00-04:00",
           "isAllDay": false,
@@ -6670,7 +6670,7 @@
       "commitments": [
         {
           "id": "0r7f64mva291tucie5kgoncqjj_20270322T201500Z",
-          "title": "Avery pu @ 4:15",
+          "title": "Avery p/u @ 4:15",
           "start": "2027-03-22T16:15:00-04:00",
           "end": "2027-03-22T17:15:00-04:00",
           "isAllDay": false,
@@ -6702,7 +6702,7 @@
       "commitments": [
         {
           "id": "734pb17f600kl8k6gnbft7pr7m_20270323T183500Z",
-          "title": "Avery pu @ 2:35",
+          "title": "Avery p/u @ 2:35",
           "start": "2027-03-23T14:35:00-04:00",
           "end": "2027-03-23T15:35:00-04:00",
           "isAllDay": false,
@@ -6878,7 +6878,7 @@
       "commitments": [
         {
           "id": "4vi6tpdlguaq2hccva96as8g8n_20270329T201500Z",
-          "title": "Avery pu @ 4:15",
+          "title": "Avery p/u @ 4:15",
           "start": "2027-03-29T16:15:00-04:00",
           "end": "2027-03-29T17:15:00-04:00",
           "isAllDay": false,
@@ -6910,7 +6910,7 @@
       "commitments": [
         {
           "id": "6l32u0hn3pqm3f4180f12phk9f_20270330T183500Z",
-          "title": "Avery pu @ 2:35",
+          "title": "Avery p/u @ 2:35",
           "start": "2027-03-30T14:35:00-04:00",
           "end": "2027-03-30T15:35:00-04:00",
           "isAllDay": false,
@@ -7010,7 +7010,7 @@
         },
         {
           "id": "5hffuk36bf365q2955gvqr0ph2_20270402T223000Z",
-          "title": "Avery pu @ 6:30",
+          "title": "Avery p/u @ 6:30",
           "start": "2027-04-02T18:30:00-04:00",
           "end": "2027-04-02T19:30:00-04:00",
           "isAllDay": false,
@@ -7104,7 +7104,7 @@
       "commitments": [
         {
           "id": "0r7f64mva291tucie5kgoncqjj_20270405T201500Z",
-          "title": "Avery pu @ 4:15",
+          "title": "Avery p/u @ 4:15",
           "start": "2027-04-05T16:15:00-04:00",
           "end": "2027-04-05T17:15:00-04:00",
           "isAllDay": false,
@@ -7136,7 +7136,7 @@
       "commitments": [
         {
           "id": "734pb17f600kl8k6gnbft7pr7m_20270406T183500Z",
-          "title": "Avery pu @ 2:35",
+          "title": "Avery p/u @ 2:35",
           "start": "2027-04-06T14:35:00-04:00",
           "end": "2027-04-06T15:35:00-04:00",
           "isAllDay": false,
@@ -7236,7 +7236,7 @@
         },
         {
           "id": "5ttqiujou0cg51g3fvvd6159p3_20270409T223000Z",
-          "title": "Avery pu @ 6:30",
+          "title": "Avery p/u @ 6:30",
           "start": "2027-04-09T18:30:00-04:00",
           "end": "2027-04-09T19:30:00-04:00",
           "isAllDay": false,
@@ -7330,7 +7330,7 @@
       "commitments": [
         {
           "id": "4vi6tpdlguaq2hccva96as8g8n_20270412T201500Z",
-          "title": "Avery pu @ 4:15",
+          "title": "Avery p/u @ 4:15",
           "start": "2027-04-12T16:15:00-04:00",
           "end": "2027-04-12T17:15:00-04:00",
           "isAllDay": false,
@@ -7362,7 +7362,7 @@
       "commitments": [
         {
           "id": "6l32u0hn3pqm3f4180f12phk9f_20270413T183500Z",
-          "title": "Avery pu @ 2:35",
+          "title": "Avery p/u @ 2:35",
           "start": "2027-04-13T14:35:00-04:00",
           "end": "2027-04-13T15:35:00-04:00",
           "isAllDay": false,
@@ -7555,7 +7555,7 @@
       "commitments": [
         {
           "id": "0r7f64mva291tucie5kgoncqjj_20270419T201500Z",
-          "title": "Avery pu @ 4:15",
+          "title": "Avery p/u @ 4:15",
           "start": "2027-04-19T16:15:00-04:00",
           "end": "2027-04-19T17:15:00-04:00",
           "isAllDay": false,
@@ -7587,7 +7587,7 @@
       "commitments": [
         {
           "id": "734pb17f600kl8k6gnbft7pr7m_20270420T183500Z",
-          "title": "Avery pu @ 2:35",
+          "title": "Avery p/u @ 2:35",
           "start": "2027-04-20T14:35:00-04:00",
           "end": "2027-04-20T15:35:00-04:00",
           "isAllDay": false,
@@ -7944,7 +7944,7 @@
       "commitments": [
         {
           "id": "683sgdm9ecdatnnbnh58uokchq_20270504T201500Z",
-          "title": "Avery pu @ 4:15",
+          "title": "Avery p/u @ 4:15",
           "start": "2027-05-03T16:15:00-04:00",
           "end": "2027-05-03T17:15:00-04:00",
           "isAllDay": false,
@@ -7976,7 +7976,7 @@
       "commitments": [
         {
           "id": "4vtbg9gj3bbcv6dn82btc09f3r_20270504T183500Z",
-          "title": "Avery pu @ 2:35",
+          "title": "Avery p/u @ 2:35",
           "start": "2027-05-04T14:35:00-04:00",
           "end": "2027-05-04T15:35:00-04:00",
           "isAllDay": false,
@@ -8076,7 +8076,7 @@
         },
         {
           "id": "6rh89vp4vf4oa84847cmvki9a1_20270507T223000Z",
-          "title": "Avery pu @ 6:30",
+          "title": "Avery p/u @ 6:30",
           "start": "2027-05-07T18:30:00-04:00",
           "end": "2027-05-07T19:30:00-04:00",
           "isAllDay": false,
@@ -8170,7 +8170,7 @@
       "commitments": [
         {
           "id": "21qtoknrpk8n7d3kq5tv8m0t92_20270510T201500Z",
-          "title": "Avery pu @ 4:15",
+          "title": "Avery p/u @ 4:15",
           "start": "2027-05-10T16:15:00-04:00",
           "end": "2027-05-10T17:15:00-04:00",
           "isAllDay": false,
@@ -8202,7 +8202,7 @@
       "commitments": [
         {
           "id": "38g368a9108irpl7lht2rb9b0j_20270511T183500Z",
-          "title": "Avery pu @ 2:35",
+          "title": "Avery p/u @ 2:35",
           "start": "2027-05-11T14:35:00-04:00",
           "end": "2027-05-11T15:35:00-04:00",
           "isAllDay": false,
@@ -8302,7 +8302,7 @@
         },
         {
           "id": "2m3rmuh44n54n1ebj6u0csmv1b_20270514T223000Z",
-          "title": "Avery pu @ 6:30",
+          "title": "Avery p/u @ 6:30",
           "start": "2027-05-14T18:30:00-04:00",
           "end": "2027-05-14T19:30:00-04:00",
           "isAllDay": false,
@@ -8419,7 +8419,7 @@
       "commitments": [
         {
           "id": "4vtbg9gj3bbcv6dn82btc09f3r_20270518T183500Z",
-          "title": "Avery pu @ 2:35",
+          "title": "Avery p/u @ 2:35",
           "start": "2027-05-18T14:35:00-04:00",
           "end": "2027-05-18T15:35:00-04:00",
           "isAllDay": false,
@@ -8519,7 +8519,7 @@
         },
         {
           "id": "6rh89vp4vf4oa84847cmvki9a1_20270521T223000Z",
-          "title": "Avery pu @ 6:30",
+          "title": "Avery p/u @ 6:30",
           "start": "2027-05-21T18:30:00-04:00",
           "end": "2027-05-21T19:30:00-04:00",
           "isAllDay": false,
@@ -8613,7 +8613,7 @@
       "commitments": [
         {
           "id": "21qtoknrpk8n7d3kq5tv8m0t92_20270524T201500Z",
-          "title": "Avery pu @ 4:15",
+          "title": "Avery p/u @ 4:15",
           "start": "2027-05-24T16:15:00-04:00",
           "end": "2027-05-24T17:15:00-04:00",
           "isAllDay": false,
@@ -8645,7 +8645,7 @@
       "commitments": [
         {
           "id": "38g368a9108irpl7lht2rb9b0j_20270525T183500Z",
-          "title": "Avery pu @ 2:35",
+          "title": "Avery p/u @ 2:35",
           "start": "2027-05-25T14:35:00-04:00",
           "end": "2027-05-25T15:35:00-04:00",
           "isAllDay": false,
@@ -8745,7 +8745,7 @@
         },
         {
           "id": "2m3rmuh44n54n1ebj6u0csmv1b_20270528T223000Z",
-          "title": "Avery pu @ 6:30",
+          "title": "Avery p/u @ 6:30",
           "start": "2027-05-28T18:30:00-04:00",
           "end": "2027-05-28T19:30:00-04:00",
           "isAllDay": false,
@@ -8861,7 +8861,7 @@
       "commitments": [
         {
           "id": "4vtbg9gj3bbcv6dn82btc09f3r_20270601T183500Z",
-          "title": "Avery pu @ 2:35",
+          "title": "Avery p/u @ 2:35",
           "start": "2027-06-01T14:35:00-04:00",
           "end": "2027-06-01T15:35:00-04:00",
           "isAllDay": false,
@@ -8961,7 +8961,7 @@
         },
         {
           "id": "6rh89vp4vf4oa84847cmvki9a1_20270604T223000Z",
-          "title": "Avery pu @ 6:30",
+          "title": "Avery p/u @ 6:30",
           "start": "2027-06-04T18:30:00-04:00",
           "end": "2027-06-04T19:30:00-04:00",
           "isAllDay": false,
@@ -9064,7 +9064,7 @@
       "commitments": [
         {
           "id": "21qtoknrpk8n7d3kq5tv8m0t92_20270607T201500Z",
-          "title": "Avery pu @ 4:15",
+          "title": "Avery p/u @ 4:15",
           "start": "2027-06-07T16:15:00-04:00",
           "end": "2027-06-07T17:15:00-04:00",
           "isAllDay": false,
@@ -9264,7 +9264,7 @@
       "commitments": [
         {
           "id": "683sgdm9ecdatnnbnh58uokchq_20270615T201500Z",
-          "title": "Avery pu @ 4:15",
+          "title": "Avery p/u @ 4:15",
           "start": "2027-06-14T16:15:00-04:00",
           "end": "2027-06-14T17:15:00-04:00",
           "isAllDay": false,
@@ -9296,7 +9296,7 @@
       "commitments": [
         {
           "id": "9c69hnf3gaoljecs7gob2jpadj_20270615T183500Z",
-          "title": "Avery pu @ 2:35",
+          "title": "Avery p/u @ 2:35",
           "start": "2027-06-15T14:35:00-04:00",
           "end": "2027-06-15T15:35:00-04:00",
           "isAllDay": false,
@@ -9471,7 +9471,7 @@
       "commitments": [
         {
           "id": "21qtoknrpk8n7d3kq5tv8m0t92_20270621T201500Z",
-          "title": "Avery pu @ 4:15",
+          "title": "Avery p/u @ 4:15",
           "start": "2027-06-21T16:15:00-04:00",
           "end": "2027-06-21T17:15:00-04:00",
           "isAllDay": false,
@@ -9503,7 +9503,7 @@
       "commitments": [
         {
           "id": "38g368a9108irpl7lht2rb9b0j_20270622T183500Z",
-          "title": "Avery pu @ 2:35",
+          "title": "Avery p/u @ 2:35",
           "start": "2027-06-22T14:35:00-04:00",
           "end": "2027-06-22T15:35:00-04:00",
           "isAllDay": false,

@@ -662,6 +662,18 @@ button {
   margin-top: 0.15rem;
 }
 
+.event-link {
+  color: #2563eb;
+  font-weight: 600;
+  text-decoration: underline;
+  word-break: break-all;
+  transition: var(--transition);
+}
+
+.event-link:hover {
+  color: #1d4ed8;
+}
+
 .empty-day-commitments {
   font-size: 0.825rem;
   color: var(--text-muted);

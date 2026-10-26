@@ -13,6 +13,71 @@ interface HeroStatusProps {
   onNextDay: () => void;
 }
 
+function renderDescriptionWithLinks(desc?: string) {
+  if (!desc) return null;
+
+  let s = desc
+    .replace(/<wbr\s*\/?>/gi, '')
+    .replace(/<br\s*\/?>/gi, '\n')
+    .replace(/&amp;/g, '&')
+    .replace(/&nbsp;/g, ' ')
+    .replace(/<\/?(ul|ol|li|p|div|span)[^>]*>/gi, '\n');
+
+  const links: Array<{ url: string; label: string }> = [];
+
+  // Extract <a href="..."> tags
+  s = s.replace(/<a\s+[^>]*href=["']([^"']+)["'][^>]*>(.*?)<\/a>/gi, (_, url, txt) => {
+    const label = txt.replace(/<[^>]+>/g, '').trim() || url;
+    const placeholder = `___EXT_LINK_${links.length}___`;
+    links.push({ url, label });
+    return placeholder;
+  });
+
+  // Strip remaining HTML tags
+  s = s.replace(/<[^>]+>/g, '');
+
+  // Extract raw URLs (https?://)
+  s = s.replace(/(https?:\/\/[^\s<>"]+)/gi, m => {
+    if (m.startsWith('___EXT_LINK_')) return m;
+    const placeholder = `___EXT_LINK_${links.length}___`;
+    links.push({ url: m, label: m });
+    return placeholder;
+  });
+
+  const parts: Array<{ type: 'text'; content: string } | { type: 'link'; url: string; label: string }> = [];
+  const segments = s.split(/(___EXT_LINK_\d+___)/g);
+
+  for (const seg of segments) {
+    const match = seg.match(/^___EXT_LINK_(\d+)___$/);
+    if (match) {
+      const idx = parseInt(match[1], 10);
+      parts.push({ type: 'link', ...links[idx] });
+    } else if (seg) {
+      parts.push({ type: 'text', content: seg });
+    }
+  }
+
+  return (
+    <p className="hero-commitment-desc">
+      {parts.map((p, idx) =>
+        p.type === 'link' ? (
+          <a
+            key={idx}
+            href={p.url}
+            target="_blank"
+            rel="noopener noreferrer"
+            className="event-link"
+          >
+            {p.label}
+          </a>
+        ) : (
+          <span key={idx}>{p.content}</span>
+        )
+      )}
+    </p>
+  );
+}
+
 export const HeroStatus: React.FC<HeroStatusProps> = ({
   selectedDate,
   todayDate,
@@ -210,9 +275,7 @@ export const HeroStatus: React.FC<HeroStatusProps> = ({
                   </div>
                 )}
 
-                {item.description && (
-                  <p className="hero-commitment-desc">{item.description}</p>
-                )}
+                {item.description && renderDescriptionWithLinks(item.description)}
               </div>
             ))}
           </div>

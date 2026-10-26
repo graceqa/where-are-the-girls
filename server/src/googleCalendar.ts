@@ -209,7 +209,7 @@ export class GoogleCalendarService {
               // Apply special formatting for Avery pick-up calendar
               if (source.isAveryCalendar) {
                 const timeStr = formatClockTimeNoAmPm(start);
-                eventTitle = timeStr ? `Avery pu @ ${timeStr}` : 'Avery pu';
+                eventTitle = timeStr ? `Avery p/u @ ${timeStr}` : 'Avery p/u';
                 description = extractDropOffLocation(item.summary || '', item.description || undefined);
                 location = undefined;
               } else if (source.titleOverride) {
