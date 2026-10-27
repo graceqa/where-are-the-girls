@@ -5,7 +5,8 @@ on:
     branches:
       - main
   schedule:
-    # Run every 6 hours to sync latest Google Calendar events automatically
+    # Runs nightly at 3:00 AM EDT (07:00 UTC) and every 6 hours
+    - cron: '0 7 * * *'
     - cron: '0 */6 * * *'
   workflow_dispatch: # Allows manual trigger from GitHub Actions tab
 
@@ -43,6 +44,8 @@ jobs:
       - name: Sync Google Calendar Data
         run: npm run sync || echo "Sync skipped, building with existing calendar snapshot"
         env:
+          GCP_SA_KEY: ${{ secrets.GCP_SA_KEY }}
+          GOOGLE_SERVICE_ACCOUNT_JSON: ${{ secrets.GOOGLE_SERVICE_ACCOUNT_JSON }}
           GOOGLE_SERVICE_ACCOUNT_EMAIL: ${{ secrets.GOOGLE_SERVICE_ACCOUNT_EMAIL }}
           GOOGLE_PRIVATE_KEY: ${{ secrets.GOOGLE_PRIVATE_KEY }}
           GOOGLE_CALENDAR_ID: graceandronnyg@gmail.com

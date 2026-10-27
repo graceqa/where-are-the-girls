@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-10-26T17:21:21.406Z",
+  "generatedAt": "2026-10-27T19:52:13.304Z",
   "status": {
     "isConfigured": true,
     "isConnected": true,
@@ -8,29 +8,6 @@
     "message": "Connected to Google Calendars: Family Calendar, Gabby Penny Violin Lessons, Avery pick-up"
   },
   "days": {
-    "2026-08-27": {
-      "date": "2026-08-27",
-      "custody": {
-        "parent": "Grace",
-        "isExchangeDay": false,
-        "matchedKeywords": [
-          "Grace"
-        ]
-      },
-      "travelStatus": "traveling in Sydney",
-      "commitments": [],
-      "custodyEvents": [
-        {
-          "id": "0d50bld41ntr6vl5r9j5gfrlv2",
-          "title": "Grace",
-          "start": "2026-07-31",
-          "end": "2026-09-03",
-          "isAllDay": true,
-          "category": "custody",
-          "parentTag": "Grace"
-        }
-      ]
-    },
     "2026-08-28": {
       "date": "2026-08-28",
       "custody": {
@@ -2154,6 +2131,15 @@
       "schoolBreak": "no school",
       "commitments": [
         {
+          "id": "_6l146ghm8gok4b9g6p1k8b9k6os44b9o8koj0ba16oo3ee9p6h1j2da168",
+          "title": "Gabby ptc",
+          "start": "2026-11-03T13:10:00-05:00",
+          "end": "2026-11-03T13:20:00-05:00",
+          "isAllDay": false,
+          "description": "Zoom 929 7443 6618\nPw 111502",
+          "category": "commitment"
+        },
+        {
           "id": "1l2o66jn7doq5984er67ksekbi_20261103T210000Z",
           "title": "violin lesson",
           "start": "2026-11-03T16:00:00-05:00",
@@ -2407,7 +2393,16 @@
       },
       "schoolBreak": "no school",
       "travelStatus": "traveling in Paris",
-      "commitments": [],
+      "commitments": [
+        {
+          "id": "1ra6h9tn3r0217ck8bmfo8pore",
+          "title": "test",
+          "start": "2026-11-11",
+          "end": "2026-11-12",
+          "isAllDay": true,
+          "category": "commitment"
+        }
+      ],
       "custodyEvents": [
         {
           "id": "0fb0pmona9j0lf0f45jfhr9f4m",
@@ -9553,6 +9548,28 @@
           "parentTag": "Grace"
         }
       ]
+    },
+    "2027-06-24": {
+      "date": "2027-06-24",
+      "custody": {
+        "parent": "Grace",
+        "isExchangeDay": false,
+        "matchedKeywords": [
+          "Grace"
+        ]
+      },
+      "commitments": [],
+      "custodyEvents": [
+        {
+          "id": "2kpdsbsdl44tn6qmu8g31piuqb",
+          "title": "Grace",
+          "start": "2027-06-18",
+          "end": "2027-06-26",
+          "isAllDay": true,
+          "category": "custody",
+          "parentTag": "Grace"
+        }
+      ]
     }
   },
   "months": {
@@ -10675,7 +10692,7 @@
               "Ronny"
             ]
           },
-          "commitmentCount": 1
+          "commitmentCount": 2
         },
         "2026-11-04": {
           "date": "2026-11-04",
@@ -10769,7 +10786,7 @@
               "Grace"
             ]
           },
-          "commitmentCount": 0
+          "commitmentCount": 1
         },
         "2026-11-12": {
           "date": "2026-11-12",

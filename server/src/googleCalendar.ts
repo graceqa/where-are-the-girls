@@ -87,6 +87,20 @@ export class GoogleCalendarService {
     let email = process.env.GOOGLE_SERVICE_ACCOUNT_EMAIL || '';
     let key = process.env.GOOGLE_PRIVATE_KEY || '';
 
+    // Check for raw JSON string in environment secret (e.g. GCP_SA_KEY or GOOGLE_SERVICE_ACCOUNT_JSON)
+    const rawJsonEnv = process.env.GOOGLE_SERVICE_ACCOUNT_JSON || process.env.GCP_SA_KEY || '';
+    if (rawJsonEnv) {
+      try {
+        const parsed = JSON.parse(rawJsonEnv);
+        if (parsed.type === 'service_account') {
+          email = parsed.client_email || email;
+          key = parsed.private_key || key;
+        }
+      } catch (err: any) {
+        console.warn('Could not parse GOOGLE_SERVICE_ACCOUNT_JSON env var:', err.message);
+      }
+    }
+
     // Check for JSON key file in root or specified in env
     const keyFilePath = process.env.GOOGLE_SERVICE_ACCOUNT_KEY_FILE || this.findKeyFile();
     if (keyFilePath && fs.existsSync(keyFilePath)) {
